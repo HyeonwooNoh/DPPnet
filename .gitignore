@@ -1,0 +1,49 @@
+
+# data
+data/VQA_torch/
+data/skipthoughts_params/
+data/toronto-cocoqa/test/
+data/toronto-cocoqa/train/
+data/vqa_vgg16_features/
+data/MSCOCO/images
+
+# cache
+cache/vqa_data_cache_major_test-dev2015_54
+
+# model
+model/VGG16_torch/
+model/DPPnet/DPPnet_vqa.t7
+model/DPPnet/CNN_FIXED_vqa.t7
+
+model/HashedNets/libhashnn.so
+model/HashedNets/libhashnn/_build/
+
+# temporary files
+*.swp
+
+# simulink
+004_train_DPPnet_fixed_cnn/HasherME.lua
+004_train_DPPnet_fixed_cnn/cache
+004_train_DPPnet_fixed_cnn/data
+004_train_DPPnet_fixed_cnn/libhashnn.so
+004_train_DPPnet_fixed_cnn/model
+004_train_DPPnet_fixed_cnn/save_result_vqa/
+004_train_DPPnet_fixed_cnn/utils
+
+005_train_DPPnet_finetune_cnn/HasherME.lua
+005_train_DPPnet_finetune_cnn/cache
+005_train_DPPnet_finetune_cnn/data
+005_train_DPPnet_finetune_cnn/libhashnn.so
+005_train_DPPnet_finetune_cnn/model
+005_train_DPPnet_finetune_cnn/save_result_vqa/
+005_train_DPPnet_finetune_cnn/utils
+
+006_test_DPPnet/HasherME.lua
+006_test_DPPnet/cache
+006_test_DPPnet/data
+006_test_DPPnet/libhashnn.so
+006_test_DPPnet/model
+006_test_DPPnet/save_result_vqa_test/
+006_test_DPPnet/utils
+
+
