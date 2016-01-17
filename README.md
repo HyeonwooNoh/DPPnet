@@ -43,13 +43,14 @@ Run "setup.sh" for setting up.
 ### Testing
 
 Scripts for testing is in "006\_test\_DPPnet". Use following commands for testing.
-  0. ./gen\_simulinks.sh
-  0. th vqa\_test.lua
+  0. Run ./gen\_simulinks.sh
+  0. Run th vqa\_test.lua
+  0. Results will be saved in "006\_test\_DPPnet/save\_result\_vqa\_test/results/"
 
 ### Training
 
 Following steps are required for training.
-  0. train DPPnet with fixed cnn feature (004\_train\_DPPnet\_fixed\_cnn)
+  0. Train DPPnet with fixed cnn feature (004\_train\_DPPnet\_fixed\_cnn)
   0. Finetune CNN from the model trained in the previous step (005\_train\_DPPnet\_finetune\_cnn)
 
 ### Directories
