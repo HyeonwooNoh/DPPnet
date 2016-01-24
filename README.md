@@ -35,6 +35,7 @@ Check LICENSE file for details.
 
   * torch [https://github.com/torch/distro]
   * loadcaffe [https://github.com/szagoruyko/loadcaffe]
+  * xxhash [install: luarocks install xxhash]
 
 ### Setup
 
