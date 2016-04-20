@@ -6,6 +6,13 @@
 // #include "lauxlib.h"
 
 
+// fix for declaration of C function ‘__half __ldg(const __half*)’ Issue #1
+// see https://groups.google.com/forum/#!topic/darknet/6SK5akHLF7s
+#include "cuda_runtime.h"
+#include "curand.h"
+#include "cublas_v2.h"
+// end of fix for declaration of C function ‘__half __ldg(const __half*)’
+
 #ifdef __cplusplus
 extern "C" {
 #endif
